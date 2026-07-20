@@ -1,13 +1,14 @@
-# Hadox Labs Catalog
+# Hadox Labs Catalog (retired)
 
-Public product pages for preserved Hadox Research Labs experiments.
+This standalone static catalog has been retired. The experiments now live as
+native case studies in the main Hadox portfolio:
 
-## Routes
+- [Mexico Scientific Intelligence](https://hadox.org/work/mexico-scientific-intelligence)
+- [Netherlands Scientific Intelligence](https://hadox.org/work/netherlands-scientific-intelligence)
 
-- `/labs/`
-- `/labs/mexico-scientific-intelligence/`
-- `/labs/netherlands-scientific-intelligence/`
+The former `/labs` routes and the legacy `mx.hadox.org` and `nl.hadox.org`
+subdomains redirect to those canonical pages.
 
-The original application repositories and their data remain private. This repository contains only the public product narrative and static presentation.
-
-The `redirects/` directory contains the temporary lightweight redirects used while other services still depend on the legacy VPS. They can be retired after the final DNS cutover.
+The original application repositories and their data remain private. This
+repository is retained only as a historical record of the temporary static
+presentation and its transition redirects.
